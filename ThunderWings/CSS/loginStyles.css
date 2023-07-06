@@ -1,0 +1,25 @@
+body {
+  background-image: url("../Images/loginBack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px; 
+}
+
+.transparent-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transparent-box th,
+.transparent-box td {
+  padding: 8px;
+  text-align: center;
+}

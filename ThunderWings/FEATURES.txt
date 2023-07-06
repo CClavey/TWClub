@@ -1,0 +1,9 @@
+--CONTROL F5 FORCE RELOADS A CSS--
+
+Profile Photos
+Email Confirmation or Admin Confirmation
+Kill graphs?
+User statistics
+Interactive map to select hunt location
+Dark Mode Switch
+Forgot Password

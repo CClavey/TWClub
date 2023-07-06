@@ -1,0 +1,186 @@
+/*Dark Green: #004d00
+Olive Green: #808000
+Khaki: #c3b091
+Rustic Brown: #804000
+Warm Grey: #7f7f7f*/
+
+ul {
+  list-style-type: none;
+  background-color: #f13e36;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-content
+{
+	position: absolute;
+	left: 88px;
+	display: none;
+	background-color: #c3b091;
+	z-index: 1;
+	width: 200px;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-item:hover .menu-content
+{
+	display:block;
+}
+
+a
+{
+	font-family: Arial;
+	color: Black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: Blue;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: 80px;
+}
+
+.menu-item {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.menu-item a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 14px 16px;
+}
+
+li.menu-item {
+  width: 20%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.order-button-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order-button-container span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+a
+{
+	font-family: Arial;
+	color: Black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: Blue;
+	text-decoration: underline;
+}
+
+.white_content
+{
+	position:absolute;
+	top:65px;
+	left: calc(50% - 540px);
+	width:1080px;
+	height:600px;
+	background-color:#eae2b7;
+	display:none;
+	z-index:1000;
+}
+
+.black_content
+{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:black;
+	opacity:.70;
+	z-index:1;	
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.container h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input[type="number"],
+.form-group textarea {
+	width: 95%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.form-group textarea {
+	height: 80px;
+	resize: vertical;
+}
+
+.button-wrapper {
+	text-align: center;
+}
+
+.button-wrapper button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	background-color: #4caf50;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
