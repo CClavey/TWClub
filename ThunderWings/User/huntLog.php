@@ -85,7 +85,7 @@
 			</div>
 			<div class="form-group">
 				<label for="totalHunters">Total Hunters:</label>
-				<input type="number" id="drakes" name="drakes" min="0" max = "13" placeholder="Number of hunters">
+				<input type="number" id="totalHunters" name="totalHunters" min="0" max = "13" placeholder="Number of hunters">
 			</div>
 			<div class="form-group">
 				<label for="groupHunted">Group Hunted:</label>
@@ -97,23 +97,23 @@
 			</div>
 			<div class="form-group">
 				<label for="drakes">Number of Drakes Killed:</label>
-				<input type="number" id="drakes" name="drakes" min="0" placeholder="Number of drakes killed">
+				<input type="number" id="drakes" name="drakes" min="0" placeholder="Number of drakes you killed">
 			</div>
 			<div class="form-group">
 				<label for="hen">Number of Hens Killed:</label>
-				<input type="number" id="hen" name="hen" min="0" placeholder="Number of hens killed">
+				<input type="number" id="hens" name="hens" min="0" placeholder="Number of hens you killed">
 			</div>
 			<div class="form-group">
 				<label for="gaddy">Number of Gaddies Killed:</label>
-				<input type="number" id="gaddy" name="gaddy" min="0" placeholder="Number of gaddies killed">
+				<input type="number" id="gaddies" name="gaddies" min="0" placeholder="Number of gaddies you killed">
 			</div>
 			<div class="form-group">
 				<label for="teal">Number of Teal Killed:</label>
-				<input type="number" id="teal" name="teal" min="0" placeholder="Number of teal killed">
+				<input type="number" id="teal" name="teal" min="0" placeholder="Number of teal you killed">
 			</div>
 			<div class="form-group">
 				<label for="widgeon">Number of Widgeon Killed:</label>
-				<input type="number" id="widgeon" name="widgeon" min="0" placeholder="Number of widgeon killed">
+				<input type="number" id="widgeon" name="widgeon" min="0" placeholder="Number of widgeon you killed">
 			</div>
 			<div class="form-group">
 				<label for="comments">User Comments:</label>

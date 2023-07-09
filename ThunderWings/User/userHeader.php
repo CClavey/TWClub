@@ -12,10 +12,10 @@
 		<li class="menu-item"><a href="huntLog.php" class="drp">Log Hunts</a>
 		</li>
 		
-		<li class="menu-item"><a href="deals.php" class="drp">Action2</a>
+		<li class="menu-item"><a href="huntStatistics.php" class="drp">Hunt Statistics</a>
 		</li>
 		
-		<li class="menu-item"><a href="order.php" class="drp">Action3</a>
+		<li class="menu-item"><a href="blindConfirmations.php" class="drp">Blind Confirmations</a>
 		</li>
 		
 		<li class="menu-item"><a href="#" class="drp">Account</a>

@@ -17,21 +17,33 @@
 		$gender = $_POST['gender'];
 		$dob = $_POST['dob'];
 		$role = "U";
+		
+		$sqlCheck = "SELECT * FROM users_tab WHERE emailID = '$emailID'";
+		$resultCheck = $connect->query($sqlCheck);
+		if($resultCheck == FALSE) {
+			$sql = "INSERT INTO users_tab (sID, firstName, lastName, emailID, password, gender, dob, role) 
+					VALUES (null, '$firstname', '$lastname', '$emailID', '$pwd', '$gender', '$dob', '$role')";
+			$result = $connect->query($sql);
 
-		$sql = "INSERT INTO users_tab (sID, firstName, lastName, emailID, password, gender, dob, role) 
-				VALUES (null, '$firstname', '$lastname', '$emailID', '$pwd', '$gender', '$dob', '$role')";
-		$result = $connect->query($sql);
-
-		if($result == FALSE){
-			echo "error:".$connect->error;
-		} else {
+			if($result == FALSE){
+				echo "error:".$connect->error;
+			} else {
+				?>
+				<script>
+					alert("Account Created!");
+					window.location.href = "index.php";
+				</script>
+				<?php
+				$_SESSION['emailID'] = $emailID;
+			}
+		}
+		else{
 			?>
 			<script>
-				alert("Account Created!");
-				window.location.href = "index.php";
+				alert("An account using that email already exists!");
+				window.location.href = "signup.php";
 			</script>
 			<?php
-			$_SESSION['emailID'] = $emailID;
 		}
 	?>
 
